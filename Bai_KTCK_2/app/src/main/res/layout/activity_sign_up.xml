@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#FF9800"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".Sign_Up">
+    <ImageView
+        android:layout_gravity="center"
+        android:layout_marginTop="45dp"
+        android:layout_width="160dp"
+        android:src="@drawable/icon"
+        android:layout_height="160dp"/>
+
+    <androidx.cardview.widget.CardView
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        app:cardCornerRadius="8dp"
+        android:layout_width="350dp"
+        android:layout_height="400dp">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <EditText
+                android:id="@+id/edt_nameup"
+                android:background="@drawable/border"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginRight="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                android:hint="Name"
+                android:paddingLeft="20dp"
+                android:textSize="24dp"
+                android:textColorHint="@color/black" />
+            <EditText
+                android:id="@+id/edt_emailup"
+                android:background="@drawable/border"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginRight="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                android:hint="Email"
+                android:paddingLeft="20dp"
+                android:textSize="24dp"
+                android:textColorHint="@color/black" />
+            <EditText
+                android:id="@+id/edt_passup"
+                android:background="@drawable/border"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginRight="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                android:password="true"
+                android:hint="Password"
+                android:paddingLeft="20dp"
+                android:textSize="24dp"
+                android:textColorHint="@color/black" />
+
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:layout_marginTop="16dp"
+                android:layout_gravity="center"
+                android:id="@+id/btn_signup"
+                android:textColor="@color/white"
+                android:textSize="20dp"
+                android:text="Sign Up"
+                android:background="@drawable/button"
+                android:layout_width="180dp"
+                android:layout_height="56dp"/>
+
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+
+</LinearLayout>

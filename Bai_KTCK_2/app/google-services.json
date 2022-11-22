@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1051111434647",
+    "firebase_url": "https://fir-ktck2-default-rtdb.firebaseio.com",
+    "project_id": "fir-ktck2",
+    "storage_bucket": "fir-ktck2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1051111434647:android:d27865d32b8a7383dfbcd2",
+        "android_client_info": {
+          "package_name": "com.example.bai_ktck_2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1051111434647-rqvrd6h1kqefi6pcto2rdukdl5bnr642.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.bai_ktck_2",
+            "certificate_hash": "9bb7324fa89ee1b473515854dada1f037bf28995"
+          }
+        },
+        {
+          "client_id": "1051111434647-o7gg5kf9dls1jufn746d7psk8t8q0bb4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAp0-vvZGMxi-YcaBM89NnTRvjV1uszyIs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1051111434647-o7gg5kf9dls1jufn746d7psk8t8q0bb4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

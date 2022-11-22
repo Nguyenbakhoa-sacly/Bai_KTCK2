@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".Mota_Fish">
+    <ImageView
+        android:id="@+id/img_back"
+        android:src="@drawable/back"
+        android:layout_margin="4dp"
+        android:layout_width="50dp"
+        android:layout_height="50dp"/>
+    <ImageView
+        android:id="@+id/img_mota"
+        android:layout_margin="4dp"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"/>
+    <TextView
+        android:layout_marginLeft="4dp"
+        android:layout_marginRight="4dp"
+        android:layout_marginBottom="4dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textSize="23dp"
+        android:text="Tên khoa học:"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:id="@+id/tenkh_mota"
+        android:layout_margin="4dp"
+        android:textSize="22dp"
+        android:textColor="@color/black"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:layout_margin="4dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textSize="23dp"
+        android:text="Tên thường gọi:"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:id="@+id/tentg_mota"
+        android:layout_margin="4dp"
+        android:textSize="22dp"
+        android:textColor="@color/black"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:layout_margin="4dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textSize="23dp"
+        android:text="Màu sác:"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:id="@+id/mausac_mota"
+        android:layout_margin="4dp"
+        android:textSize="22dp"
+        android:textColor="@color/black"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:layout_margin="4dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textSize="23dp"
+        android:text="Đặc tính:"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:id="@+id/dactinh_mota"
+        android:layout_margin="4dp"
+        android:textSize="22dp"
+        android:textColor="@color/black"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+</LinearLayout>
